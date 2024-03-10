@@ -1,0 +1,122 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(small_red_robotic_car_in_a_rac.jpeg);
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    top: -90px;
+    /* flex-wrap: wrap; */
+}
+#h1{
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    color: rgb(112, 32, 112);
+    text-shadow: 10px 10px 10px black;
+    position: relative;
+    top: -50px;
+}
+#h3{
+    font-size: 55px;
+    margin-top: 0px;
+    color: rgb(12, 44, 141);
+    text-shadow: 3px 3px 5px black;
+}
+#info{
+    width: 1000px;
+    font-size: 25px;
+    text-shadow: 3px 3px 5px black;
+    align-content: center;
+    /* color: black; */
+    /* font-weight: 600; */
+}
+#registerbtn{
+    margin-top: 20px;
+    background-color: darkslategray;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 8px 8px;
+    color: skyblue;
+    text-decoration: none;
+}
+#registerbtn:hover{
+    background-color: rgb(37, 61, 61);
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-image: url(robot_face-off_concept_art_dig.jpeg);
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    height: 800px;
+}
+#roboquiz{
+    font-size: 55px;
+    color: rgb(3, 3, 122);
+}
+#info2{
+    font-size: 25px;
+    width: 1000px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+#img{
+    border-radius: 50%;
+    height: 80px;
+    position: fixed;
+    top: 30px;
+    right: 1390px;
+    display: inline;
+}
+#div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -400px;
+    top: 20px;
+    font-size: 25px;
+    text-shadow: 3px 3px 5px black;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -400px;
+    top: 20px;
+    font-size: 25px;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+}
+#team{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+    background-color: black;
+    position: relative;
+    top: -105px;
+    height: 400px;
+    width: 100vw;
+    height: 100vh;
+}
