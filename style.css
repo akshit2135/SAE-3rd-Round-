@@ -3,8 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
     color: white;
-    background-color: black;
-    
+    background-color: black; 
+    height: 100vh;
+    width: 100vw;   
 }
 
 #container{
@@ -52,6 +53,7 @@ body{
     padding: 8px 8px;
     color: skyblue;
     text-decoration: none;
+    transition: background-color 1s;
 }
 #registerbtn:hover{
     background-color: rgb(37, 61, 61);
@@ -85,6 +87,7 @@ body{
     top: 30px;
     right: 1390px;
     display: inline;
+    z-index: +1;
 }
 #div{
     display: flex;
