@@ -84,8 +84,8 @@ body{
     border-radius: 50%;
     height: 80px;
     position: fixed;
-    top: 30px;
-    right: 1390px;
+    /* top: 1vh; */
+    /* right: 10vw; */
     display: inline;
     z-index: +1;
 }
