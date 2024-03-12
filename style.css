@@ -13,8 +13,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     background-image: url(small_red_robotic_car_in_a_rac.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     height: 1000px;
     position: relative;
     top: -90px;
@@ -69,6 +73,9 @@ body{
     position: relative;
     top: -100px;
     height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 #roboquiz{
     font-size: 55px;
