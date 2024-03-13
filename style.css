@@ -3,9 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
     color: white;
-    background-color: black; 
+    /* background-color: black;  */
     height: 100vh;
-    width: 100vw;   
+    /* width: 100vw;    */
 }
 
 #container{
@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    /* width: 100vw; */
     background-image: url(small_red_robotic_car_in_a_rac.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body{
     margin-top: 0px;
     margin-bottom: 10px;
     padding-top: 0px;
-    color: rgb(112, 32, 112);
+    color: rgb(33, 114, 51);
     text-shadow: 10px 10px 10px black;
     position: relative;
     top: -50px;
@@ -141,12 +141,13 @@ body{
     position: relative;
     top: -105px;
     height: 400px;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
+    margin: 0px;
 }
 .logos{
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 180px;
     z-index: 1;
     
 }
@@ -171,4 +172,36 @@ body{
     flex-direction: row;
     justify-content: space-between;
     width: 900px;
+}
+#saeimg{
+    height: 100px;
+    border-radius: 50%;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    font-size: 32px;
+    /* color: blue; */
+    z-index: 99;
+}
+
+nav ul li a{
+    text-decoration: none   ;
+    color: black;
 }
